@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+img {
+    width: 100%;
+  }
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(151, 16, 140, 0.349);
+  border-radius: 10px;
+  
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(151, 16, 140);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(151, 16, 140);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.corp {   
+  float: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.fakeimg {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: rgba(151, 16, 140, 0.349);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-radius: 10px;
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: rgba(151, 16, 140, 0.349);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

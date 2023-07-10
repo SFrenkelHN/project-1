@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>  
+<head> 
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>ArtiShop - Contact</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="fakeimg" style="height:220px;">
+            <a href="index.html">
+                <img src="images/logo.PNG" alt="logo" style="width:435px;height:200px;">
+              </a>
+        </div>
+    </div>
+    
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="about.html">À propos</a></li>
+      <li><a href="news.html">Actualités</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Nos produits</a>
+        <div class="dropdown-content">
+          <a href="produit1.html">Produit 1</a>
+          <a href="produit2.html">Produit 2</a>
+          <a href="produit3.html">Produit 3</a>
+        </div>
+      </li>
+      <li><a href="PhotoGallery.html">Galerie photo</a></li>
+      <li><a href="contact.html" style="float:right">Nous contacter</a></li>
+    </ul>
+    
+    <div class="row">
+        <div class="corp">
+            <div class="card">
+                <H3>Contactez nous :</H3>
+
+                <form action="http://vip.groupehn.com:20003/html/infospost.php">
+                    <fieldset>
+                    <legend>Formulaire de contact :</legend>
+                    <label for="fname">Nom :</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Prénoms :</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="exemple@email.fr" required><br><br>
+                    <textarea name="request" id="request" rows="20" cols="80">
+                        laissez votre message ici...
+                        </textarea><br>
+                    <input type="submit" value="Envoyer">
+                    </fieldset>
+                  </form>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <p>Copyright 2023</p>
+    </div>
+    
+    </body>
+    </html>
